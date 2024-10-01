@@ -1,0 +1,15 @@
+class Solution
+{
+public boolean containsDuplicate(int[] nums)
+{
+Set<Integer>s1=new HashSet<>();
+for(int i:nums)
+{
+if(nums.cotains(i))
+{
+return true;
+}
+nums.add(i);
+}
+return false;
+}}
